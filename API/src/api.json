@@ -1,0 +1,64 @@
+{
+  "matematika": [
+    {
+      "nomor": 1,
+      "question": "3 + 3 =",
+      "choice": {
+        "a": "9",
+        "b": "12",
+        "c": "5",
+        "d": "6"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "nomor": 2,
+      "question": "6 + 3 =",
+      "choice": {
+        "a": "9",
+        "b": "12",
+        "c": "5",
+        "d": "6"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "nomor": 3,
+      "question": "6 + 9 =",
+      "choice": {
+        "a": "9",
+        "b": "12",
+        "c": "15",
+        "d": "6"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "nomor": 4,
+      "question": "12 + 12 =",
+      "choice": {
+        "a": "1",
+        "b": "12",
+        "c": "9",
+        "d": "24"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "nomor": 1,
+      "question": "18 - 2 =",
+      "choice": {
+        "a": "9",
+        "b": "12",
+        "c": "5",
+        "d": "16"
+      },
+      "answer": "D",
+      "point": 10
+    }
+  ]
+}
