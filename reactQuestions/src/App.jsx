@@ -129,8 +129,12 @@ const App = () => {
               disabled={isDisabled}
               onClick={getQuestions}
               type="button"
-              className="block mx-auto px-12 md:px-40 lg:px-12 py-1 md:py-3 lg:py-1 bg-blue-600 rounded-md shadow-md font-medium md:text-xl lg:text-md text-white hover:bg-blue-400 border-white"
-              data-click="generate"
+              className={
+                (isDisabled
+                  ? "bg-gray-400 "
+                  : "bg-blue-600 hover:bg-blue-400 pointer ") +
+                "block mx-auto px-12 md:px-40 lg:px-12 py-1 md:py-3 lg:py-1 rounded-md shadow-md font-medium md:text-xl lg:text-md text-white border-white"
+              }
             >
               Generate Quest
             </button>
