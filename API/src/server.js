@@ -12,9 +12,10 @@ function readQuestions() {
 
 app.get("/questions", (req, res) => {
   const questions = readQuestions();
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
   res.send(questions);
 });
 
-app.listen(3000, () => {
-  console.log("API Runing 127.0.0.1:3000...");
+app.listen(5003, () => {
+  console.log("API Runing 127.0.0.1:5003...");
 });
