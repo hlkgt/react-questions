@@ -66,7 +66,12 @@ const App = () => {
       try {
         const response = await fetch("http://127.0.0.1:5003/questions");
         const data = await response.json();
-        setQuestions(data[kategori]);
+        for (let i = 0; i < 5; i++) {
+          const randomNumber = Math.floor(
+            Math.random() * data[kategori].length + 1
+          );
+          setQuestions((quests) => [...quests, data[kategori][randomNumber]]);
+        }
         setIsDisabled(true);
       } catch (error) {
         console.log("Error Pada Bagian", error.message);
@@ -223,7 +228,7 @@ const App = () => {
                 return (
                   <Fragment key={i}>
                     <div className="grid grid-cols-4">
-                      <BoxQuest id={quest.id} text={quest.question}>
+                      <BoxQuest id={i + 1} text={quest.question}>
                         <QuestChoice
                           choice={"A"}
                           name={"answer" + i}
