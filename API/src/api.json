@@ -2,309 +2,45 @@
   "matematika": [
     {
       "id": 1,
-      "question": "3 + 3 =",
-      "choice": {
-        "a": "9",
-        "b": "12",
-        "c": "5",
-        "d": "6"
-      },
-      "answer": "D",
-      "point": 10
-    },
-    {
-      "id": 2,
-      "question": "6 + 3 =",
-      "choice": {
-        "a": "9",
-        "b": "12",
-        "c": "5",
-        "d": "6"
-      },
-      "answer": "A",
-      "point": 10
-    },
-    {
-      "id": 3,
-      "question": "6 + 9 =",
-      "choice": {
-        "a": "9",
-        "b": "12",
-        "c": "15",
-        "d": "6"
-      },
-      "answer": "C",
-      "point": 10
-    },
-    {
-      "id": 4,
-      "question": "12 + 12 =",
-      "choice": {
-        "a": "1",
-        "b": "12",
+      "question": "Berapakah hasil dari 5 + 3?",
+      "choices": {
+        "a": "7",
+        "b": "8",
         "c": "9",
-        "d": "24"
-      },
-      "answer": "D",
-      "point": 10
-    },
-    {
-      "id": 5,
-      "question": "18 - 2 =",
-      "choice": {
-        "a": "9",
-        "b": "12",
-        "c": "5",
-        "d": "16"
-      },
-      "answer": "D",
-      "point": 10
-    },
-    {
-      "id": 6,
-      "question": "Di bawah ini benda yang berbentuk balok yaitu",
-      "choice": {
-        "a": "Bola",
-        "b": "Rubik",
-        "c": "Gelas",
-        "d": "Almari"
-      },
-      "answer": "D",
-      "point": 10
-    },
-    {
-      "id": 7,
-      "question": "Di bawah ini yang termasuk ciri ciri balok, kecuali",
-      "choice": {
-        "a": "Mempunyai 6 sisi",
-        "b": "Mempunyai 8 titik sudut",
-        "c": "Mempunyai 12 rusuk",
-        "d": "Mempunyai 6 diagonal ruang"
-      },
-      "answer": "D",
-      "point": 10
-    },
-    {
-      "id": 8,
-      "question": "Jumlah titik sudut kubus yaitu",
-      "choice": {
-        "a": "4",
-        "b": "6",
-        "c": "8",
-        "d": "12"
-      },
-      "answer": "C",
-      "point": 10
-    },
-    {
-      "id": 9,
-      "question": " Jumlah sisi pada bangun ruang berbentuk balok adalah . . . . buah.",
-      "choice": {
-        "a": "4",
-        "b": "6",
-        "c": "8",
         "d": "10"
       },
       "answer": "B",
       "point": 10
     },
     {
-      "id": 10,
-      "question": "Bentuk sisi sisi pada kubus adalah",
-      "choice": {
-        "a": "Lingkaran",
-        "b": "Persegi",
-        "c": "Persegi Panjang",
-        "d": "Belah Ketupat"
+      "id": 2,
+      "question": "Berapakah hasil dari 12 - 6?",
+      "choices": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "10"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 3,
+      "question": "Berapakah hasil dari 4 × 5?",
+      "choices": {
+        "a": "15",
+        "b": "20",
+        "c": "25",
+        "d": "30"
       },
       "answer": "B",
       "point": 10
     },
     {
-      "id": 11,
-      "question": "Sebuah benda memiliki 6 sisi. Setelah diukur sisi tersebut ternyata keenam sisinya memiliki panjang dan lebar yang sama. Selain itu besar sudut pada sisi sisinya juga sama yakni 90 derajat. Dari informasi tersebut di atas, dapat diketahui bahwa benda tersebut berbentuk bangun",
-      "choice": {
-        "a": "Balok",
-        "b": "Kubus",
-        "c": "Prisma",
-        "d": "Tabung"
-      },
-      "answer": "B",
-      "point": 10
-    },
-    {
-      "id": 12,
-      "question": "Balok mempunyai …. pasang sisi yang sama besar.",
-      "choice": {
+      "id": 4,
+      "question": "Berapakah hasil dari 20 ÷ 4?",
+      "choices": {
         "a": "2",
-        "b": "3",
-        "c": "4",
-        "d": "6"
-      },
-      "answer": "B",
-      "point": 10
-    },
-    {
-      "id": 13,
-      "question": "Sebuah papan kayu memiliki panjang 2 meter, lebar 30 cm dan tinggi 15 cm. Dari pernyataan di atas kayu tersebut berbentuk bangun ….",
-      "choice": {
-        "a": "Balok",
-        "b": "Kubus",
-        "c": "Prisma",
-        "d": "Persegi Panjang"
-      },
-      "answer": "A",
-      "point": 10
-    },
-    {
-      "id": 14,
-      "question": "Sebuah kubus memiliki panjang rusuk 9 cm. Maka volume dari bangun kubus tersebut yaitu …. cm3.",
-      "choice": {
-        "a": "81",
-        "b": "486",
-        "c": "729",
-        "d": "739"
-      },
-      "answer": "C",
-      "point": 10
-    },
-    {
-      "id": 15,
-      "question": "Rumus mencari volume kubus adalah...",
-      "choice": {
-        "a": "V = p x l x t",
-        "b": "V = s x s x s",
-        "c": "V = 6 x s x s",
-        "d": "V = 12 x s x s"
-      },
-      "answer": "B",
-      "point": 10
-    },
-    {
-      "id": 16,
-      "question": "Rumus untuk mencari luas permukaan kubus adalah",
-      "choice": {
-        "a": "L = 6 x s x s",
-        "b": "L = s x s x s",
-        "c": "L = 12 x s x s",
-        "d": "L = 6 x p x l"
-      },
-      "answer": "A",
-      "point": 10
-    },
-    {
-      "id": 17,
-      "question": "Kerangka dari sebuah bangun ruang disebut juga",
-      "choice": {
-        "a": "Diagonal",
-        "b": "Rusuk",
-        "c": "Jaring Jaring",
-        "d": "Volume"
-      },
-      "answer": "C",
-      "point": 10
-    },
-    {
-      "id": 18,
-      "question": "Diketahui sebuah kubus dengan luas alas 49 cm2 maka volume kubus tersebut adalah …. cm3.",
-      "choice": {
-        "a": "294",
-        "b": "304",
-        "c": "343",
-        "d": "363"
-      },
-      "answer": "C",
-      "point": 10
-    },
-    {
-      "id": 19,
-      "question": "Sebuah kubus dengan panjang rusuk 22 cm, maka volume dari kubus tersebut adalah …. cm3.",
-      "choice": {
-        "a": "9.648",
-        "b": "10.648",
-        "c": "10.848",
-        "d": "10.968"
-      },
-      "answer": "B",
-      "point": 10
-    },
-    {
-      "id": 20,
-      "question": "Sebuah kubus memiliki volume 4.096 cm3. Maka panjang rusuk kubus tersebut adalah",
-      "choice": {
-        "a": "14 cm",
-        "b": "16 cm",
-        "c": "24 cm",
-        "d": "26 cm"
-      },
-      "answer": "A",
-      "point": 10
-    },
-    {
-      "id": 21,
-      "question": "Hasil dari ³√32.768 adalah",
-      "choice": {
-        "a": "12",
-        "b": "22",
-        "c": "32",
-        "d": "42"
-      },
-      "answer": "C",
-      "point": 10
-    },
-    {
-      "id": 22,
-      "question": "Sebuah kubus dengan panjang rusuk 8 cm. Maka luas permukaan kubus tersebut adalah …. cm2",
-      "choice": {
-        "a": "364",
-        "b": "384",
-        "c": "512",
-        "d": "532"
-      },
-      "answer": "B",
-      "point": 10
-    },
-    {
-      "id": 23,
-      "question": "Rumus mencari volume untuk bangun ruang berbentuk balok adalah",
-      "choice": {
-        "a": "V = s x s x s",
-        "b": "V = 6 x s x s",
-        "c": "V = p x l x t",
-        "d": "V = 2 x ((p x l) + (p x t) + (l x t))"
-      },
-      "answer": "C",
-      "point": 10
-    },
-    {
-      "id": 24,
-      "question": "Rumus mencari luas permukaan balok adalah",
-      "choice": {
-        "a": "L = Luas alas x tinggi",
-        "b": "L = 1/3 x luas alas x tinggi",
-        "c": "L = phi x r x r x t",
-        "d": "L = 2 x ((p x l) + (p x t) + (l x t))"
-      },
-      "answer": "D",
-      "point": 10
-    },
-    {
-      "id": 25,
-      "question": "Sebuah balok dengan panjang 6 cm, lebar 5 cm dan tinggi 2 cm. Maka volume balok tersebut adalah…. cm3.",
-      "choice": {
-        "a": "30",
-        "b": "40",
-        "c": "50",
-        "d": "60"
-      },
-      "answer": "D",
-      "point": 10
-    },
-    {
-      "id": 26,
-      "question": "Sebuah balok mempunyai volume 360 cm3. Apabila panjang dan lebar balok secara berturut turut adalah 18 cm dan 4 cm. Maka tinggi balok tersebut adalah …. cm.",
-      "choice": {
-        "a": "3",
         "b": "4",
         "c": "5",
         "d": "6"
@@ -313,51 +49,1401 @@
       "point": 10
     },
     {
-      "id": 27,
-      "question": "Diketahui sebuah balok dengan panjang 32 cm, lebar 15 cm dan tinggi 8 cm. Maka volume dari bangun balok tersebut adalah …. cm3.",
-      "choice": {
-        "a": "3.480",
-        "b": "3.840",
-        "c": "4.280",
-        "d": "4.420"
+      "id": 5,
+      "question": "Berapakah hasil dari 7 + 3 × 2?",
+      "choices": {
+        "a": "13",
+        "b": "16",
+        "c": "17",
+        "d": "20"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 6,
+      "question": "Berapakah hasil dari 15 - 6 ÷ 2?",
+      "choices": {
+        "a": "7",
+        "b": "8",
+        "c": "9",
+        "d": "10"
       },
       "answer": "B",
       "point": 10
     },
     {
-      "id": 28,
-      "question": "Sebuah wadah berbentuk kubus dengan panjang rusuk 12 cm. Dan di dalam kubus tersebut akan dimasukkan kubus kecil dengan panjang rusuk 3 cm. Maka banyaknya kubus kecil yang bisa ditampung paling banyak adalah …. buah.",
-      "choice": {
-        "a": "16",
-        "b": "27",
+      "id": 7,
+      "question": "Berapakah hasil dari 4 × 3 + 5?",
+      "choices": {
+        "a": "11",
+        "b": "17",
+        "c": "19",
+        "d": "23"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 8,
+      "question": "Berapakah hasil dari (8 + 2) × 3?",
+      "choices": {
+        "a": "24",
+        "b": "30",
         "c": "32",
-        "d": "64"
+        "d": "36"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 9,
+      "question": "Berapakah hasil dari 25 ÷ (5 - 2)?",
+      "choices": {
+        "a": "5",
+        "b": "8",
+        "c": "10",
+        "d": "12"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 10,
+      "question": "Berapakah hasil dari 7 × 2 - 4 + 5?",
+      "choices": {
+        "a": "13",
+        "b": "15",
+        "c": "16",
+        "d": "18"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 11,
+      "question": "Berapakah hasil dari 3 + 4 × 2 - 5?",
+      "choices": {
+        "a": "4",
+        "b": "7",
+        "c": "9",
+        "d": "11"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 12,
+      "question": "Berapakah hasil dari 12 ÷ (4 + 2) × 3?",
+      "choices": {
+        "a": "6",
+        "b": "9",
+        "c": "12",
+        "d": "18"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 13,
+      "question": "Berapakah hasil dari 5² + 3 × 4?",
+      "choices": {
+        "a": "37",
+        "b": "47",
+        "c": "57",
+        "d": "67"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 14,
+      "question": "Berapakah hasil dari √16 × 3 - 5?",
+      "choices": {
+        "a": "1",
+        "b": "3",
+        "c": "7",
+        "d": "9"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 15,
+      "question": "Berapakah hasil dari 2³ + 5 - 3 × 2?",
+      "choices": {
+        "a": "9",
+        "b": "11",
+        "c": "13",
+        "d": "15"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 16,
+      "question": "Berapakah hasil dari 7 + 8 ÷ 2 - 4?",
+      "choices": {
+        "a": "6",
+        "b": "7",
+        "c": "9",
+        "d": "11"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 17,
+      "question": "Berapakah hasil dari 12 ÷ 3 × 4 + 2?",
+      "choices": {
+        "a": "10",
+        "b": "14",
+        "c": "16",
+        "d": "18"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 18,
+      "question": "Berapakah hasil dari 6 + (5 - 3) × 4?",
+      "choices": {
+        "a": "10",
+        "b": "14",
+        "c": "18",
+        "d": "22"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 19,
+      "question": "Berapakah hasil dari (8 + 2) × (5 - 3)?",
+      "choices": {
+        "a": "16",
+        "b": "18",
+        "c": "20",
+        "d": "22"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 20,
+      "question": "Berapakah hasil dari 9 × (6 ÷ 2) + 4?",
+      "choices": {
+        "a": "22",
+        "b": "27",
+        "c": "30",
+        "d": "36"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 21,
+      "question": "Berapakah hasil dari 5 + 3 × 2 - 4 ÷ 2?",
+      "choices": {
+        "a": "6",
+        "b": "7",
+        "c": "8",
+        "d": "9"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 22,
+      "question": "Berapakah hasil dari 4 × 3 - 2 + 5 ÷ 5?",
+      "choices": {
+        "a": "7",
+        "b": "8",
+        "c": "9",
+        "d": "10"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 23,
+      "question": "Berapakah hasil dari 6 - 3 × (2 + 4) ÷ 3?",
+      "choices": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 24,
+      "question": "Berapakah hasil dari 5 × (4 + 2) - 3²?",
+      "choices": {
+        "a": "11",
+        "b": "13",
+        "c": "17",
+        "d": "19"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 25,
+      "question": "Berapakah hasil dari 8 ÷ (4 - 2) × (6 - 3)?",
+      "choices": {
+        "a": "12",
+        "b": "16",
+        "c": "20",
+        "d": "24"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 26,
+      "question": "Berapakah hasil dari 2 + (5 - 3) × 4 ÷ 2?",
+      "choices": {
+        "a": "6",
+        "b": "8",
+        "c": "10",
+        "d": "12"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 27,
+      "question": "Berapakah hasil dari 4 × (3 - 2) + (5 - 1)?",
+      "choices": {
+        "a": "8",
+        "b": "9",
+        "c": "10",
+        "d": "11"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 28,
+      "question": "Berapakah hasil dari 3 + 4 × (2 + 3) - 2?",
+      "choices": {
+        "a": "13",
+        "b": "17",
+        "c": "21",
+        "d": "25"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 29,
+      "question": "Berapakah hasil dari 6 ÷ 2 × (3 + 1)?",
+      "choices": {
+        "a": "8",
+        "b": "10",
+        "c": "12",
+        "d": "16"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 30,
+      "question": "Berapakah hasil dari (5 + 2) × (4 - 1) + 3?",
+      "choices": {
+        "a": "18",
+        "b": "21",
+        "c": "24",
+        "d": "27"
+      },
+      "answer": "B",
+      "point": 10
+    }
+  ],
+  "ipa": [
+    {
+      "id": 1,
+      "question": "Apa yang menyebabkan apel berubah warna menjadi cokelat setelah dipotong?",
+      "choices": {
+        "a": "Oksidasi",
+        "b": "Fermentasi",
+        "c": "Pengeringan",
+        "d": "Pembusukan"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 2,
+      "question": "Manakah dari berikut ini yang bukan termasuk bahan-bahan alami?",
+      "choices": {
+        "a": "Batu bara",
+        "b": "Air",
+        "c": "Tanah",
+        "d": "Kayu"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 3,
+      "question": "Apakah fungsi dari klorofil dalam tumbuhan?",
+      "choices": {
+        "a": "Menghasilkan oksigen",
+        "b": "Menyerap air",
+        "c": "Menghasilkan energi",
+        "d": "Menghasilkan gula"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 4,
+      "question": "Bagaimana proses fotosintesis pada tumbuhan terjadi?",
+      "choices": {
+        "a": "Tumbuhan menghasilkan karbon dioksida",
+        "b": "Tumbuhan menghasilkan oksigen",
+        "c": "Tumbuhan mengubah energi cahaya menjadi energi kimia",
+        "d": "Tumbuhan mengubah glukosa menjadi karbohidrat"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 5,
+      "question": "Manakah dari berikut ini bukan contoh bentuk energi?",
+      "choices": {
+        "a": "Energi kinetik",
+        "b": "Energi potensial",
+        "c": "Energi listrik",
+        "d": "Energi bersih"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 6,
+      "question": "Apa yang disebut sebagai unit dasar materi?",
+      "choices": {
+        "a": "Atom",
+        "b": "Molekul",
+        "c": "Sel",
+        "d": "Partikel"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 7,
+      "question": "Bagaimana ciri-ciri benda yang berada dalam keadaan padat?",
+      "choices": {
+        "a": "Bentuk dan volume tetap",
+        "b": "Bentuk tetap, volume berubah",
+        "c": "Bentuk berubah, volume tetap",
+        "d": "Bentuk dan volume berubah"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 8,
+      "question": "Bagaimana reaksi kimia antara asam dan basa disebut?",
+      "choices": {
+        "a": "Oksidasi",
+        "b": "Fermentasi",
+        "c": "Netralisasi",
+        "d": "Pengendapan"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 9,
+      "question": "Apa yang terjadi pada air ketika mencapai titik didih?",
+      "choices": {
+        "a": "Berubah menjadi es",
+        "b": "Menguap menjadi uap air",
+        "c": "Mengendap menjadi endapan",
+        "d": "Membeku menjadi padat"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 10,
+      "question": "Manakah dari berikut ini yang merupakan contoh bahan konduktor panas?",
+      "choices": {
+        "a": "Plastik",
+        "b": "Kaca",
+        "c": "Kayu",
+        "d": "Logam"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 11,
+      "question": "Apa yang menyebabkan pelangi terbentuk?",
+      "choices": {
+        "a": "Hujan",
+        "b": "Sinar matahari dan hujan",
+        "c": "Angin",
+        "d": "Percikan air"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 12,
+      "question": "Apa yang terjadi saat air membeku?",
+      "choices": {
+        "a": "Mengembang",
+        "b": "Mengkerut",
+        "c": "Menguap",
+        "d": "Mengendap"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 13,
+      "question": "Manakah dari berikut ini yang merupakan gas paling melimpah di atmosfer bumi?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Nitrogen",
+        "c": "Karbon dioksida",
+        "d": "Argon"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 14,
+      "question": "Apa yang disebut sebagai unit terkecil dari unsur kimia?",
+      "choices": {
+        "a": "Atom",
+        "b": "Molekul",
+        "c": "Sel",
+        "d": "Partikel"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 15,
+      "question": "Apa yang terjadi saat air menguap?",
+      "choices": {
+        "a": "Mengembun",
+        "b": "Mencair",
+        "c": "Mengalir",
+        "d": "Mengendap"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 16,
+      "question": "Bagaimana sifat cahaya yang menjelaskan bahwa cahaya bergerak dalam garis lurus?",
+      "choices": {
+        "a": "Refleksi",
+        "b": "Pemantulan",
+        "c": "Refraksi",
+        "d": "Penyebaran"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 17,
+      "question": "Bagaimana sifat cahaya yang menjelaskan bahwa cahaya bergerak dalam garis lurus?",
+      "choices": {
+        "a": "Refleksi",
+        "b": "Pemantulan",
+        "c": "Refraksi",
+        "d": "Penyebaran"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 18,
+      "question": "Apakah sifat air yang membuatnya dapat menahan benda?",
+      "choices": {
+        "a": "Kekenyalan",
+        "b": "Ketahanan",
+        "c": "Kohesi",
+        "d": "Adhesi"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 19,
+      "question": "Apa yang disebut sebagai pusat pengendalian seluruh aktivitas sel?",
+      "choices": {
+        "a": "Membran sel",
+        "b": "Sitoplasma",
+        "c": "Nukleus",
+        "d": "Ribosom"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 20,
+      "question": "Apa yang disebut sebagai pembuluh yang membawa darah dari jantung ke seluruh tubuh?",
+      "choices": {
+        "a": "Vena",
+        "b": "Arteri",
+        "c": "Kapiler",
+        "d": "Aorta"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 21,
+      "question": "Apakah fungsi paru-paru dalam sistem pernapasan?",
+      "choices": {
+        "a": "Menghirup oksigen",
+        "b": "Mengeluarkan karbon dioksida",
+        "c": "Menghasilkan glukosa",
+        "d": "Mengolah zat-zat sisa"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 22,
+      "question": "Apa yang disebut sebagai zat kimia yang membantu dalam pencernaan makanan?",
+      "choices": {
+        "a": "Enzim",
+        "b": "Hormon",
+        "c": "Vitamin",
+        "d": "Asam amino"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 23,
+      "question": "Apakah fungsi ginjal dalam tubuh?",
+      "choices": {
+        "a": "Mengatur suhu tubuh",
+        "b": "Menyaring limbah dari darah",
+        "c": "Menghasilkan hormon insulin",
+        "d": "Mengendalikan gerakan otot"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 24,
+      "question": "Apakah fungsi tulang dalam tubuh?",
+      "choices": {
+        "a": "Menghasilkan darah",
+        "b": "Menyimpan air",
+        "c": "Membentuk kerangka",
+        "d": "Mengatur suhu tubuh"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 25,
+      "question": "Apakah fungsi otak dalam tubuh?",
+      "choices": {
+        "a": "Menghasilkan enzim",
+        "b": "Menghasilkan hormon insulin",
+        "c": "Mengatur suhu tubuh",
+        "d": "Mengendalikan semua aktivitas tubuh"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 26,
+      "question": "Apa yang disebut sebagai zat yang menyebabkan penyakit?",
+      "choices": {
+        "a": "Bakteri",
+        "b": "Virus",
+        "c": "Jamur",
+        "d": "Parasit"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 27,
+      "question": "Apa yang disebut sebagai sistem peredaran darah pada manusia?",
+      "choices": {
+        "a": "Sistem kardiovaskular",
+        "b": "Sistem pernapasan",
+        "c": "Sistem saraf",
+        "d": "Sistem pencernaan"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 28,
+      "question": "Manakah dari berikut ini yang merupakan organ penglihatan?",
+      "choices": {
+        "a": "Jantung",
+        "b": "Ginjal",
+        "c": "Hati",
+        "d": "Mata"
       },
       "answer": "D",
       "point": 10
     },
     {
       "id": 29,
-      "question": "Sebuah kubus mempunyai volume 2.744 cm3, maka panjang rusuk dari kubus tersebut adalah … cm.",
-      "choice": {
-        "a": "14",
-        "b": "16",
-        "c": "24",
-        "d": "26"
+      "question": "Apakah fungsi kulit dalam tubuh?",
+      "choices": {
+        "a": "Melakukan pertukaran gas",
+        "b": "Melindungi organ dalam tubuh",
+        "c": "Menghantarkan impuls saraf",
+        "d": "Membentuk makanan menjadi energi"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 30,
+      "question": "Apakah fungsi gigi dalam tubuh?",
+      "choices": {
+        "a": "Mengunyah makanan",
+        "b": "Mengatur denyut jantung",
+        "c": "Membentuk tulang",
+        "d": "Mengatur suhu tubuh"
+      },
+      "answer": "A",
+      "point": 10
+    }
+  ],
+  "ips": [
+    {
+      "id": 1,
+      "question": "Apa ibukota negara Indonesia?",
+      "choices": {
+        "a": "Jakarta",
+        "b": "Bandung",
+        "c": "Surabaya",
+        "d": "Yogyakarta"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 2,
+      "question": "Apakah yang menjadi simbol lambang negara Indonesia?",
+      "choices": {
+        "a": "Bintang",
+        "b": "Pohon",
+        "c": "Burung",
+        "d": "Padi dan kapas"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 3,
+      "question": "Siapakah Presiden pertama Indonesia?",
+      "choices": {
+        "a": "Soekarno",
+        "b": "Soeharto",
+        "c": "Megawati",
+        "d": "Jokowi"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 4,
+      "question": "Berapa jumlah provinsi di Indonesia?",
+      "choices": {
+        "a": "32",
+        "b": "34",
+        "c": "36",
+        "d": "38"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 5,
+      "question": "Apakah yang menjadi mata pencaharian utama penduduk Indonesia?",
+      "choices": {
+        "a": "Pertanian",
+        "b": "Perikanan",
+        "c": "Pariwisata",
+        "d": "Perdagangan"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 6,
+      "question": "Apa yang menjadi simbol negara Indonesia dalam bidang olahraga?",
+      "choices": {
+        "a": "Sepak bola",
+        "b": "Bulu tangkis",
+        "c": "Renang",
+        "d": "Atletik"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 7,
+      "question": "Siapakah pahlawan nasional yang dijuluki 'Bapak Proklamasi'?",
+      "choices": {
+        "a": "Soekarno",
+        "b": "Hatta",
+        "c": "Kartini",
+        "d": "Diponegoro"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 8,
+      "question": "Apa nama sungai terpanjang di Indonesia?",
+      "choices": {
+        "a": "Sungai Kapuas",
+        "b": "Sungai Musi",
+        "c": "Sungai Citarum",
+        "d": "Sungai Mahakam"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 9,
+      "question": "Berapa jumlah pulau yang ada di Indonesia?",
+      "choices": {
+        "a": "13.466",
+        "b": "17.508",
+        "c": "20.000",
+        "d": "25.000"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 10,
+      "question": "Apa nama puncak gunung tertinggi di Indonesia?",
+      "choices": {
+        "a": "Gunung Rinjani",
+        "b": "Gunung Semeru",
+        "c": "Gunung Kerinci",
+        "d": "Gunung Jaya Wijaya"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 11,
+      "question": "Apa nama provinsi yang terletak di pulau Jawa?",
+      "choices": {
+        "a": "Jawa Barat",
+        "b": "Jawa Timur",
+        "c": "Jawa Tengah",
+        "d": "Jawa Selatan"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 12,
+      "question": "Apakah yang menjadi mata pencaharian utama di daerah pesisir?",
+      "choices": {
+        "a": "Pertanian",
+        "b": "Perikanan",
+        "c": "Perdagangan",
+        "d": "Pariwisata"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 13,
+      "question": "Apa yang menjadi mata pencaharian utama di daerah pegunungan?",
+      "choices": {
+        "a": "Pertanian",
+        "b": "Peternakan",
+        "c": "Perikanan",
+        "d": "Perdagangan"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 14,
+      "question": "Apa yang menjadi mata pencaharian utama di daerah dataran rendah?",
+      "choices": {
+        "a": "Pertanian",
+        "b": "Perikanan",
+        "c": "Pariwisata",
+        "d": "Perdagangan"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 15,
+      "question": "Apakah yang menjadi mata pencaharian utama di daerah pedalaman?",
+      "choices": {
+        "a": "Pertanian",
+        "b": "Perikanan",
+        "c": "Perdagangan",
+        "d": "Pariwisata"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 16,
+      "question": "Apa yang menjadi mata pencaharian utama di daerah industri?",
+      "choices": {
+        "a": "Pertanian",
+        "b": "Perikanan",
+        "c": "Perdagangan",
+        "d": "Industri"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 17,
+      "question": "Apa yang menjadi mata pencaharian utama di daerah perbatasan?",
+      "choices": {
+        "a": "Pertanian",
+        "b": "Perikanan",
+        "c": "Pariwisata",
+        "d": "Perdagangan"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 18,
+      "question": "Siapakah Presiden Indonesia yang pertama kali memimpin selama 2 periode?",
+      "choices": {
+        "a": "Soekarno",
+        "b": "Soeharto",
+        "c": "Megawati",
+        "d": "Jokowi"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 19,
+      "question": "Apa nama lembaga legislatif di Indonesia?",
+      "choices": {
+        "a": "DPR",
+        "b": "MPR",
+        "c": "DPRD",
+        "d": "MK"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 20,
+      "question": "Apa yang menjadi lambang Negara Kesatuan Republik Indonesia (NKRI)?",
+      "choices": {
+        "a": "Bhinneka Tunggal Ika",
+        "b": "Garuda Pancasila",
+        "c": "Pancasila",
+        "d": "Merah Putih"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 21,
+      "question": "Apakah yang menjadi lambang negara Indonesia pada bendera merah-putih?",
+      "choices": {
+        "a": "Bintang",
+        "b": "Pohon",
+        "c": "Burung",
+        "d": "Padi dan kapas"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 22,
+      "question": "Apa yang menjadi lambang negara Indonesia pada lambang Garuda Pancasila?",
+      "choices": {
+        "a": "Bintang",
+        "b": "Pohon",
+        "c": "Burung",
+        "d": "Padi dan kapas"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 23,
+      "question": "Siapakah Wakil Presiden Indonesia saat ini?",
+      "choices": {
+        "a": "Jusuf Kalla",
+        "b": "Ma'ruf Amin",
+        "c": "Prabowo Subianto",
+        "d": "Sandiaga Uno"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 24,
+      "question": "Apakah yang menjadi lambang negara Indonesia pada sila pertama Pancasila?",
+      "choices": {
+        "a": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "b": "Kemanusiaan yang adil dan beradab",
+        "c": "Ketuhanan Yang Maha Esa",
+        "d": "Persatuan Indonesia"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 25,
+      "question": "Siapakah tokoh Indonesia yang dijuluki 'Bapak Koperasi'?",
+      "choices": {
+        "a": "Soekarno",
+        "b": "Hatta",
+        "c": "Kartini",
+        "d": "Diponegoro"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 26,
+      "question": "Apakah yang menjadi lambang negara Indonesia pada sila kedua Pancasila?",
+      "choices": {
+        "a": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "b": "Kemanusiaan yang adil dan beradab",
+        "c": "Ketuhanan Yang Maha Esa",
+        "d": "Persatuan Indonesia"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 27,
+      "question": "Apa yang menjadi lambang negara Indonesia pada sila ketiga Pancasila?",
+      "choices": {
+        "a": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "b": "Kemanusiaan yang adil dan beradab",
+        "c": "Ketuhanan Yang Maha Esa",
+        "d": "Persatuan Indonesia"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 28,
+      "question": "Apakah yang menjadi lambang negara Indonesia pada sila keempat Pancasila?",
+      "choices": {
+        "a": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "b": "Kemanusiaan yang adil dan beradab",
+        "c": "Ketuhanan Yang Maha Esa",
+        "d": "Persatuan Indonesia"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 29,
+      "question": "Apa yang menjadi lambang negara Indonesia pada sila kelima Pancasila?",
+      "choices": {
+        "a": "Keadilan sosial bagi seluruh rakyat Indonesia",
+        "b": "Kemanusiaan yang adil dan beradab",
+        "c": "Ketuhanan Yang Maha Esa",
+        "d": "Persatuan Indonesia"
       },
       "answer": "A",
       "point": 10
     },
     {
       "id": 30,
-      "question": "Sebuah kubus memiliki panjang rusuk 17 cm. Maka luas permukaan dari bangun kubus tersebut adalah …. cm2.",
-      "choice": {
-        "a": "289",
-        "b": "1.734",
-        "c": "1.824",
-        "d": "4.913"
+      "question": "Siapakah Wakil Presiden pertama Indonesia?",
+      "choices": {
+        "a": "Soekarno",
+        "b": "Hatta",
+        "c": "Megawati",
+        "d": "Jusuf Kalla"
       },
       "answer": "B",
+      "point": 10
+    }
+  ],
+  "sains": [
+    {
+      "id": 1,
+      "question": "Apa nama ilmu yang mempelajari tentang planet dan benda langit lainnya?",
+      "choices": {
+        "a": "Astronomi",
+        "b": "Biologi",
+        "c": "Fisika",
+        "d": "Kimia"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 2,
+      "question": "Apakah yang menjadi satuan pengukuran untuk kecepatan suara?",
+      "choices": {
+        "a": "Meter",
+        "b": "Kilogram",
+        "c": "Kelvin",
+        "d": "Meter per detik"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 3,
+      "question": "Apa yang menjadi unsur utama dalam air?",
+      "choices": {
+        "a": "Hidrogen",
+        "b": "Oksigen",
+        "c": "Nitrogen",
+        "d": "Karbondioksida"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 4,
+      "question": "Apa yang menjadi alat untuk mengukur suhu?",
+      "choices": {
+        "a": "Termometer",
+        "b": "Barometer",
+        "c": "Mikroskop",
+        "d": "Teleskop"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 5,
+      "question": "Apa yang menjadi sumber energi utama pada bumi?",
+      "choices": {
+        "a": "Matahari",
+        "b": "Angin",
+        "c": "Minyak bumi",
+        "d": "Air"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 6,
+      "question": "Apakah yang menjadi zat pembentuk utama tumbuhan?",
+      "choices": {
+        "a": "Air",
+        "b": "Karbondioksida",
+        "c": "Gula",
+        "d": "Garam"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 7,
+      "question": "Apa yang menjadi alat untuk mengukur tekanan udara?",
+      "choices": {
+        "a": "Termometer",
+        "b": "Barometer",
+        "c": "Mikroskop",
+        "d": "Teleskop"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 8,
+      "question": "Apakah yang menjadi hasil akhir dari proses fotosintesis pada tumbuhan?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Karbondioksida",
+        "c": "Glukosa",
+        "d": "Air"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 9,
+      "question": "Apa yang menjadi sumber energi utama dalam seluruh bentuk kehidupan di bumi?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Air",
+        "c": "Karbondioksida",
+        "d": "Matahari"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 10,
+      "question": "Apakah yang menjadi satuan pengukuran untuk kekuatan arus listrik?",
+      "choices": {
+        "a": "Volt",
+        "b": "Ampere",
+        "c": "Watt",
+        "d": "Ohm"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 11,
+      "question": "Apa yang menjadi hasil akhir dari proses pembakaran?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Karbondioksida",
+        "c": "Air",
+        "d": "Gas nitrogen"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 12,
+      "question": "Apakah yang menjadi alat untuk mengukur waktu?",
+      "choices": {
+        "a": "Jam",
+        "b": "Meter",
+        "c": "Kilogram",
+        "d": "Kelvin"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 13,
+      "question": "Apa yang menjadi zat pembentuk utama protein dalam tubuh?",
+      "choices": {
+        "a": "Air",
+        "b": "Karbohidrat",
+        "c": "Lemak",
+        "d": "Asam amino"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 14,
+      "question": "Apakah yang menjadi satuan pengukuran untuk panjang?",
+      "choices": {
+        "a": "Meter",
+        "b": "Kilogram",
+        "c": "Kelvin",
+        "d": "Detik"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 15,
+      "question": "Apa yang menjadi zat pembentuk utama bahan bakar fosil?",
+      "choices": {
+        "a": "Hidrogen",
+        "b": "Oksigen",
+        "c": "Karbondioksida",
+        "d": "Karbohidrat"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 16,
+      "question": "Apakah yang menjadi alat untuk mengamati benda-benda jauh di angkasa?",
+      "choices": {
+        "a": "Teleskop",
+        "b": "Mikroskop",
+        "c": "Termometer",
+        "d": "Barometer"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 17,
+      "question": "Apa yang menjadi hasil dari proses fotosintesis pada tumbuhan?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Karbondioksida",
+        "c": "Glukosa",
+        "d": "Air"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 18,
+      "question": "Apakah yang menjadi satuan pengukuran untuk massa?",
+      "choices": {
+        "a": "Meter",
+        "b": "Kilogram",
+        "c": "Kelvin",
+        "d": "Detik"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 19,
+      "question": "Apa yang menjadi zat pembentuk utama dalam tubuh manusia?",
+      "choices": {
+        "a": "Air",
+        "b": "Gula",
+        "c": "Garam",
+        "d": "Protein"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 20,
+      "question": "Apakah yang menjadi satuan pengukuran untuk suhu?",
+      "choices": {
+        "a": "Kelvin",
+        "b": "Ampere",
+        "c": "Watt",
+        "d": "Ohm"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 21,
+      "question": "Apa yang menjadi hasil akhir dari proses pembelahan sel?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Karbondioksida",
+        "c": "Glukosa",
+        "d": "Sel-sel baru"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 22,
+      "question": "Apakah yang menjadi alat untuk mengukur tekanan dalam gas?",
+      "choices": {
+        "a": "Termometer",
+        "b": "Barometer",
+        "c": "Mikroskop",
+        "d": "Teleskop"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 23,
+      "question": "Apa yang menjadi zat pembentuk utama dalam tubuh tumbuhan?",
+      "choices": {
+        "a": "Air",
+        "b": "Gula",
+        "c": "Garam",
+        "d": "Protein"
+      },
+      "answer": "A",
+      "point": 10
+    },
+    {
+      "id": 24,
+      "question": "Apakah yang menjadi hasil akhir dari proses respirasi sel?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Karbondioksida",
+        "c": "Glukosa",
+        "d": "Air"
+      },
+      "answer": "B",
+      "point": 10
+    },
+    {
+      "id": 25,
+      "question": "Apa yang menjadi alat untuk mengukur kecepatan angin?",
+      "choices": {
+        "a": "Termometer",
+        "b": "Barometer",
+        "c": "Anemometer",
+        "d": "Teleskop"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 26,
+      "question": "Apakah yang menjadi hasil akhir dari proses fermentasi?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Karbondioksida",
+        "c": "Glukosa",
+        "d": "Alkohol"
+      },
+      "answer": "D",
+      "point": 10
+    },
+    {
+      "id": 27,
+      "question": "Apa yang menjadi satuan pengukuran untuk gaya?",
+      "choices": {
+        "a": "Volt",
+        "b": "Ampere",
+        "c": "Newton",
+        "d": "Ohm"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 28,
+      "question": "Apakah yang menjadi hasil akhir dari proses pembentukan gula?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Karbondioksida",
+        "c": "Glukosa",
+        "d": "Air"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 29,
+      "question": "Apa yang menjadi zat pembentuk utama dalam bahan bakar fosil?",
+      "choices": {
+        "a": "Hidrogen",
+        "b": "Oksigen",
+        "c": "Karbondioksida",
+        "d": "Karbohidrat"
+      },
+      "answer": "C",
+      "point": 10
+    },
+    {
+      "id": 30,
+      "question": "Apakah yang menjadi hasil akhir dari proses fotosintesis pada tumbuhan?",
+      "choices": {
+        "a": "Oksigen",
+        "b": "Karbondioksida",
+        "c": "Glukosa",
+        "d": "Air"
+      },
+      "answer": "C",
       "point": 10
     }
   ]

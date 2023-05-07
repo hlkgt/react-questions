@@ -173,6 +173,7 @@ const App = () => {
               </div>
             </div>
             <select
+              disabled={isDisabled}
               name="select"
               id="select"
               className={
@@ -245,33 +246,34 @@ const App = () => {
                 return (
                   <Fragment key={i}>
                     <div className="grid grid-cols-4">
+                    {console.log(questions)}
                       <BoxQuest id={i + 1} text={quest.question}>
                         <QuestChoice
                           choice={"A"}
                           name={"answer" + i}
-                          text={quest.choice.a}
-                          id={quest.id + quest.choice.a}
+                          text={quest.choices.a}
+                          id={quest.id + quest.choices.a}
                           onChange={handleAnswerChange}
                         />
                         <QuestChoice
                           choice={"B"}
                           name={"answer" + i}
-                          text={quest.choice.b}
-                          id={quest.id + quest.choice.b}
+                          text={quest.choices.b}
+                          id={quest.id + quest.choices.b}
                           onChange={handleAnswerChange}
                         />
                         <QuestChoice
                           choice={"C"}
                           name={"answer" + i}
-                          text={quest.choice.c}
-                          id={quest.id + quest.choice.c}
+                          text={quest.choices.c}
+                          id={quest.id + quest.choices.c}
                           onChange={handleAnswerChange}
                         />
                         <QuestChoice
                           choice={"D"}
                           name={"answer" + i}
-                          text={quest.choice.d}
-                          id={quest.id + quest.choice.d}
+                          text={quest.choices.d}
+                          id={quest.id + quest.choices.d}
                           onChange={handleAnswerChange}
                         />
                       </BoxQuest>
