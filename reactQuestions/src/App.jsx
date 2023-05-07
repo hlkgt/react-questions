@@ -53,7 +53,9 @@ const App = () => {
   const [isDisabled, setIsDisabled] = useState(false);
   const [answers, setAnswers] = useState({});
   const [isStatus, setIsStatus] = useState(false);
+  const [highScore, setHighScore] = useState(0);
   let [score, setScore] = useState(0);
+  let [gettingScore, setGettingScore] = useState(0);
 
   const handleKategori = (e) => setKategori(e.target.value);
 
@@ -102,6 +104,7 @@ const App = () => {
     for (let i = 0; i < questions.length; i++) {
       if (questions[i].answer === answers["answer" + i]) {
         setScore((score += questions[i].point));
+        setGettingScore((gettingScore += questions[i].point));
         handleDetailAnswer(questions[i].answer, answers["answer" + i], true);
       } else if (questions[i].answer !== answers["answer" + i]) {
         if (answers["answer" + i] === undefined) {
@@ -124,6 +127,7 @@ const App = () => {
     setAnswers({});
     setIsDisabled(false);
     setIsStatus(false);
+    setGettingScore(0);
   };
 
   return (
@@ -262,7 +266,7 @@ const App = () => {
             {isStatus ? (
               <div className="grid grid-cols-4">
                 <div className="col-span-4 my-4 text-center">
-                  Total Score Yang Didapat : {score}
+                  Total Score Yang Didapat : {gettingScore}
                 </div>
                 <button
                   className="col-span-4 bg-teal-600 p-2 border border-white shadow-lg rounded-md font-medium text-lg text-white hover:bg-teal-400"
