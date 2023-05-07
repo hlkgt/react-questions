@@ -1,4 +1,4 @@
-import { useState, Fragment } from "react";
+import { useState, useEffect, Fragment } from "react";
 import PropTypes from "prop-types";
 
 const BoxQuest = ({ id, text, children }) => {
@@ -56,6 +56,12 @@ const App = () => {
   let [score, setScore] = useState(0);
   let [gettingScore, setGettingScore] = useState(0);
 
+  useEffect(() => {
+    localStorage.length > 0
+      ? setHighScore(localStorage.getItem("highScore"))
+      : setHighScore(0);
+  }, []);
+
   const handleKategori = (e) => setKategori(e.target.value);
 
   const getQuestions = async () => {
@@ -102,6 +108,8 @@ const App = () => {
     status: PropTypes.boolean,
   };
 
+  console.log(localStorage);
+
   const handleSubmit = (event) => {
     event.preventDefault();
     setQuestions([]);
@@ -126,6 +134,10 @@ const App = () => {
   };
 
   const handleResetGame = () => {
+    if (score > highScore) {
+      localStorage.setItem("highScore", score);
+      setHighScore(localStorage.getItem("highScore"));
+    }
     setKategori("kategori");
     setQuestions([]);
     setAnswers({});
@@ -151,7 +163,7 @@ const App = () => {
                   High Score
                 </h1>
                 <p className="text-4xl font-medium md:text-5xl lg:text-2xl">
-                  50
+                  {highScore}
                 </p>
               </div>
             </div>
