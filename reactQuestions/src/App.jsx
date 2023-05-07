@@ -15,6 +15,11 @@ const BoxQuest = ({ id, text, children }) => {
     </Fragment>
   );
 };
+BoxQuest.propTypes = {
+  id: PropTypes.number.isRequired,
+  text: PropTypes.string.isRequired,
+  children: PropTypes.array,
+};
 
 const QuestChoice = (props) => {
   const { id, choice, text, name } = props;
@@ -33,12 +38,6 @@ const QuestChoice = (props) => {
       </label>
     </div>
   );
-};
-
-BoxQuest.propTypes = {
-  id: PropTypes.number.isRequired,
-  text: PropTypes.string.isRequired,
-  children: PropTypes.array,
 };
 QuestChoice.propTypes = {
   choice: PropTypes.string.isRequired,
