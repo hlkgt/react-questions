@@ -64,6 +64,10 @@ const App = () => {
 
   const handleKategori = (e) => setKategori(e.target.value);
 
+  const createRandomNumber = (max) => {
+    return Math.floor(Math.random() * max) + 1;
+  };
+
   const getQuestions = async () => {
     if (kategori.length <= 0 || kategori === "kategori") {
       alert("No Kategori Selected");
@@ -72,12 +76,15 @@ const App = () => {
       try {
         const response = await fetch("http://127.0.0.1:5003/questions");
         const data = await response.json();
-        for (let i = 0; i < 5; i++) {
-          const randomNumber = Math.floor(
-            Math.random() * data[kategori].length + 1
-          );
-          setQuestions((quests) => [...quests, data[kategori][randomNumber]]);
+        let quests = [];
+        while (quests.length < 5) {
+          const getQuest =
+            data[kategori][createRandomNumber(data[kategori].length)];
+          if (!quests.includes(getQuest) && getQuest !== undefined) {
+            quests.push(getQuest);
+          }
         }
+        setQuestions(quests);
         setIsDisabled(true);
       } catch (error) {
         console.log("Error Pada Bagian", error.message);
@@ -107,8 +114,6 @@ const App = () => {
     myAnswer: PropTypes.string.isRequired,
     status: PropTypes.boolean,
   };
-
-  console.log(localStorage);
 
   const handleSubmit = (event) => {
     event.preventDefault();
