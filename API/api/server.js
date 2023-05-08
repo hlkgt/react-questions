@@ -1,5 +1,5 @@
 const express = require("express");
-const app = express();
+const app = express.Router();
 const fs = require("fs");
 const path = require("path");
 
@@ -12,10 +12,7 @@ function readQuestions() {
 
 app.get("/questions", (req, res) => {
   const questions = readQuestions();
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
   res.send(questions);
 });
 
-app.listen(7103, () => {
-  console.log("API Runing 127.0.0.1:5003...");
-});
+module.exports = app;
